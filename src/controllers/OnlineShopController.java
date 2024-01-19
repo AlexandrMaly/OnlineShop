@@ -1,7 +1,5 @@
 package controllers;
 
-import views.SelfPickupOrderView;
-
 import java.util.Scanner;
 
 public class OnlineShopController {

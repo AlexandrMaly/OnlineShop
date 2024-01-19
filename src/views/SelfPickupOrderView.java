@@ -19,7 +19,10 @@ public class SelfPickupOrderView {
         return new String[]{name, quantity, price, time};
     }
 
-    public void getOutput(String output) {
+    public void getOutput(String name, String time, String cost) {
+        String output = "\nOrder: " + name + ", will be ready for pickup at " + time +
+                ", it will be necessary to pay " +
+                cost + " UAH \nWe are waiting for you!";
         System.out.println(output);
     }
 }

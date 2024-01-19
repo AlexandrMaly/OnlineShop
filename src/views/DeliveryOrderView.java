@@ -20,7 +20,10 @@ public class DeliveryOrderView {
         return new String[]{name, quantity, price, address};
     }
 
-    public static void getOutput(String output) {
+    public static void getOutput(String name, String address, String cost) {
+        String output = "\nOrder: " + name + ", will be delivered to the address " + address +
+                ", it will be necessary to pay " +
+                cost + " UAH \nWe hurry to you!";
         System.out.println(output);
     }
 

@@ -1,6 +1,6 @@
 package modeles;
 
-public class Pickup implements Order {
+public class PickupModel implements Order {
 
     @Override
     public double calculateTotalCost(int quantity, double price) {
